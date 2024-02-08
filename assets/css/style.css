@@ -23,14 +23,32 @@
             }
         }
 
-            .row>div:last-child {
-                & div {
-                    height: 3rem;
-                    width: 3rem;
-                    background-color: brown;
-                }
+        .row>div:last-child {
+            & div {
+                height: 3rem;
+                width: 3rem;
+                background-color: brown;
             }
         }
     }
 
-    /* #endregion Debug */
+    & main {
+        >.jumbotron {
+            background-color: chocolate;
+
+            .img, .description{
+                height: 6rem;
+                width: 6rem;
+                background-color: lightsalmon;
+            }
+            .description > div{
+                width: 4rem;
+                height: 2rem;
+                background-color: beige;
+            }
+        }
+    }
+
+}
+
+/* #endregion Debug */
