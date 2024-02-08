@@ -85,6 +85,21 @@
                 background-color: black;
             }
         }
+
+        >.contact_me{
+
+            .section_title {
+                width: 6rem;
+                height: 3rem;
+                background-color: blueviolet;
+            }
+
+            & form{
+                height: 6rem;
+                width: 12rem;
+                background-color: cadetblue;
+            }
+        }
     }
 
 }
