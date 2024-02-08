@@ -102,6 +102,28 @@
         }
     }
 
+    & footer{
+
+        .top{
+            background-color: darkgreen;
+
+            .adress, .social, .freelancer{
+                height: 2rem;
+                background-color: darkgoldenrod;
+            }
+        }
+
+        .bottom{
+            background-color: darkred;
+
+            >.copyright{
+                width: 3rem;
+                height: 2rem;
+                background-color: darkkhaki;
+            }
+        }
+    }
+
 }
 
 /* #endregion Debug */
