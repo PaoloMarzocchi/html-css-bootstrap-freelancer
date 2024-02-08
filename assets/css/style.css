@@ -36,33 +36,64 @@
         >.jumbotron {
             background-color: chocolate;
 
-            .img, .description{
+            .img,
+            .description {
                 height: 6rem;
                 width: 6rem;
                 background-color: lightsalmon;
             }
-            .description > div{
+
+            .description>div {
                 width: 4rem;
                 height: 2rem;
                 background-color: beige;
             }
         }
 
-        > .portfolio{
-            .section_title{
+        >.portfolio {
+            .section_title {
                 width: 6rem;
                 height: 3rem;
                 background-color: blueviolet;
             }
 
-            .card{
+            .card {
                 height: 6rem;
                 background-color: red;
             }
-            
+
+        }
+
+        >.about {
+            background-color: aqua;
+
+            .section_title {
+                width: 6rem;
+                height: 3rem;
+                background-color: blueviolet;
+            }
+
+            .card {
+                height: 6rem;
+                width: 6rem;
+                background-color: white;
+            }
+
+            .container_s>div:last-child {
+                width: 3rem;
+                height: 2rem;
+                background-color: black;
+            }
         }
     }
 
 }
 
 /* #endregion Debug */
+
+/* #region Utilities */
+.container_s {
+    width: 80%;
+}
+
+/* #endregion Utilities */
