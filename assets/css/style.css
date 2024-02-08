@@ -47,6 +47,20 @@
                 background-color: beige;
             }
         }
+
+        > .portfolio{
+            .section_title{
+                width: 6rem;
+                height: 3rem;
+                background-color: blueviolet;
+            }
+
+            .card{
+                height: 6rem;
+                background-color: red;
+            }
+            
+        }
     }
 
 }
