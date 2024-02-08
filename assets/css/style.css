@@ -1,0 +1,36 @@
+/* #region Color Palette */
+
+/* #endregion Color Palette */
+
+/* #region Debug */
+.debug {
+    & * {
+        border: 1px dashed;
+    }
+
+    & header {
+        background-color: blue;
+
+        .row>div {
+            background-color: aqua;
+        }
+
+        .row>div:first-child {
+            & div {
+                height: 3rem;
+                width: 9rem;
+                background-color: brown;
+            }
+        }
+
+            .row>div:last-child {
+                & div {
+                    height: 3rem;
+                    width: 3rem;
+                    background-color: brown;
+                }
+            }
+        }
+    }
+
+    /* #endregion Debug */
