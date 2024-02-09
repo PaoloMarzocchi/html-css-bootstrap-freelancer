@@ -33,13 +33,13 @@
     }
 
     & main {
-        >.jumbotron {
+        #jumbotron {
             background-color: chocolate;
 
             .img,
             .description {
-                height: 6rem;
                 width: 6rem;
+                height: 6rem;
                 background-color: lightsalmon;
             }
 
@@ -50,7 +50,7 @@
             }
         }
 
-        >.portfolio {
+        #portfolio {
             .section_title {
                 width: 6rem;
                 height: 3rem;
@@ -64,19 +64,13 @@
 
         }
 
-        >.about {
+        #about {
             background-color: aqua;
 
             .section_title {
                 width: 6rem;
                 height: 3rem;
                 background-color: blueviolet;
-            }
-
-            .card {
-                height: 6rem;
-                width: 6rem;
-                background-color: white;
             }
 
             .container_s>div:last-child {
@@ -86,7 +80,7 @@
             }
         }
 
-        >.contact_me{
+        #contact_me {
 
             .section_title {
                 width: 6rem;
@@ -94,7 +88,7 @@
                 background-color: blueviolet;
             }
 
-            & form{
+            & form {
                 height: 6rem;
                 width: 12rem;
                 background-color: cadetblue;
@@ -102,21 +96,23 @@
         }
     }
 
-    & footer{
+    & footer {
 
-        .top{
+        .top {
             background-color: darkgreen;
 
-            .adress, .social, .freelancer{
+            .adress,
+            .social,
+            .freelancer {
                 height: 2rem;
                 background-color: darkgoldenrod;
             }
         }
 
-        .bottom{
+        .bottom {
             background-color: darkred;
 
-            >.copyright{
+            >.copyright {
                 width: 3rem;
                 height: 2rem;
                 background-color: darkkhaki;
