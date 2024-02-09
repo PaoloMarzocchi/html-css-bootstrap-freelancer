@@ -1,9 +1,10 @@
 /* #region Color Palette */
-:root{
+:root {
     --fr-primary: rgba(26, 188, 156, 1);
     --fr-secondary: rgba(44, 62, 80, 1);
     --fr-tertiary: rgba(58, 84, 109, 1);
 }
+
 /* #endregion Color Palette */
 
 /* #region Debug */
@@ -36,56 +37,9 @@
         }
         */
     }
- 
+
     & main {
-/*         #jumbotron {
-            background-color: chocolate;
-
-            .img,
-            .description {
-                width: 6rem;
-                height: 6rem;
-                background-color: lightsalmon;
-            }
-
-            .description>div {
-                width: 4rem;
-                height: 2rem;
-                background-color: beige;
-            }
-        }
- */
-/*         #portfolio {
-            .section_title {
-                width: 6rem;
-                height: 3rem;
-                background-color: blueviolet;
-            }
-
-            .card {
-                height: 6rem;
-                background-color: red;
-            }
-
-        }
- */
-        /* #about {
-            background-color: aqua;
-
-            .section_title {
-                width: 6rem;
-                height: 3rem;
-                background-color: blueviolet;
-            }
-
-            .container_s>div:last-child {
-                width: 3rem;
-                height: 2rem;
-                background-color: black;
-            }
-        } */
-
-        #contact_me {
+        /*    #contact_me {
 
             .section_title {
                 width: 6rem;
@@ -98,7 +52,7 @@
                 width: 12rem;
                 background-color: cadetblue;
             }
-        }
+        } */
     }
 
     & footer {
@@ -130,17 +84,18 @@
 /* #endregion Debug */
 
 /* #region Common */
-h1{
+h1 {
     font-weight: 700;
 
     @media screen and (min-width:768px) {
         font-size: 3rem;
     }
 }
+
 /* #endregion Common */
 
 /* #region Utilities */
-.line{
+.line {
     display: inline-block;
     padding: 1.5px;
     border-radius: 20px;
@@ -149,40 +104,54 @@ h1{
 /* #endregion Utilities */
 
 /*#region Header section */
-header{
+header {
     background-color: var(--fr-secondary);
 }
+
 /*#endregion Header section */
 
 /* #region Main section */
-#jumbotron{
+#jumbotron {
     background-color: var(--fr-primary);
 
-    .jumbo_img{
+    .jumbo_img {
         width: 12rem;
         aspect-ratio: 1;
     }
 
-    .line{
+    .line {
         width: 15%;
         background-color: white;
     }
 }
 
-#portfolio{
+#portfolio {
 
-    .line{
+    .line {
         width: 10%;
         background-color: var(--fr-secondary);
     }
 }
 
-#about{
+#about {
     background-color: var(--fr-primary);
-    
-    .line{
+
+    .line {
         width: 5%;
         background-color: white;
     }
 }
+
+#contact_me {
+
+    .line {
+        width: 5%;
+        background-color: var(--fr-secondary);
+    }
+
+    .btn_bg{
+        background-color: var(--fr-primary);
+    }
+}
+
 /* #endregion Main section */
