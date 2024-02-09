@@ -44,7 +44,7 @@
     }
  
     & main {
-        #jumbotron {
+/*         #jumbotron {
             background-color: chocolate;
 
             .img,
@@ -60,7 +60,7 @@
                 background-color: beige;
             }
         }
-
+ */
         #portfolio {
             .section_title {
                 width: 6rem;
@@ -135,10 +135,39 @@
 
 /* #endregion Debug */
 
+/* #region Common */
+h1{
+    font-weight: 700;
+}
+/* #endregion Common */
+
 /* #region Utilities */
+.line{
+    display: inline-block;
+    padding: 1.5px;
+    border-radius: 20px;
+}
 
 /* #endregion Utilities */
 
+/*#region Header section */
 header{
     background-color: var(--fr-secondary);
 }
+/*#endregion Header section */
+
+/* #region Main section */
+#jumbotron{
+    background-color: var(--fr-primary);
+
+    .jumbo_img{
+        width: 12rem;
+        aspect-ratio: 1;
+    }
+
+    .line{
+        width: 3rem;
+        background-color: white;
+    }
+}
+/* #endregion Main section */
