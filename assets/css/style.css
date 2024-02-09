@@ -3,12 +3,6 @@
     --fr-primary: rgba(26, 188, 156, 1);
     --fr-secondary: rgba(44, 62, 80, 1);
     --fr-tertiary: rgba(58, 84, 109, 1);
-    --fr-card-fst: rgba(186, 75, 99, 1);
-    --fr-card-snd: rgba(30, 164, 182, 1);
-    --fr-card-trd: rgba(20, 15, 15, 1);
-    --fr-card-frth: rgba(28, 131, 193, 1);
-    --fr-card-ffth: rgba(14, 56, 181, 1);
-    --fr-card-sxth: rgba(204, 178, 163, 1);
 }
 /* #endregion Color Palette */
 
@@ -61,7 +55,7 @@
             }
         }
  */
-        #portfolio {
+/*         #portfolio {
             .section_title {
                 width: 6rem;
                 height: 3rem;
@@ -74,7 +68,7 @@
             }
 
         }
-
+ */
         #about {
             background-color: aqua;
 
@@ -138,6 +132,10 @@
 /* #region Common */
 h1{
     font-weight: 700;
+
+    @media screen and (min-width:768px) {
+        font-size: 3rem;
+    }
 }
 /* #endregion Common */
 
@@ -166,8 +164,16 @@ header{
     }
 
     .line{
-        width: 3rem;
+        width: 10%;
         background-color: white;
+    }
+}
+
+#portfolio{
+
+    .line{
+        width: 10%;
+        background-color: var(--fr-secondary);
     }
 }
 /* #endregion Main section */
